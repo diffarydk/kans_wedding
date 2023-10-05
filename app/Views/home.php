@@ -1,11 +1,9 @@
-<<<<<<< HEAD
+
    <?= $this->extend('template/header'); ?>
    <?=$this->Section('content'); ?> 
-=======
    <?= $this->extend('template/template')?>
 
    <?= $this->section('content');?>
->>>>>>> f680eabf7e11e67b1871f75c9ad1b586745e6671
    <div class="landing-page">
    <div class="section-1">
       <?=$this->Include('partials/navbar_home');?>

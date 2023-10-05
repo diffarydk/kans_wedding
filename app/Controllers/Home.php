@@ -10,11 +10,7 @@ class Home extends BaseController
     public function home()
     {
         return view('home');
-<<<<<<< HEAD
     }
-=======
->>>>>>> f680eabf7e11e67b1871f75c9ad1b586745e6671
-
     public function masuk()
     {  
         return view('login');
