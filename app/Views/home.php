@@ -1,17 +1,9 @@
+   <?= $this->extend('template/header'); ?>
+   <?=$this->Section('content'); ?> 
    <div class="landing-page">
-       <div class="section-1">
-           <nav class="frame">
-               <img class="kwedding" src="resource/img/kanswedding.png" />
-               <div class="nav-frame">
-                   <a href="#" class="text-wrapper">Home</a>
-                   <a href="#" class="text-wrapper">Paket</a>
-                   <a href="#" class="text-wrapper">Produk</a>
-                   <div class="buat-sekarang-wrapper">
-                       <a href="#" class="buat-sekarang">Daftar/Login</a>
-                   </div>
-               </div>
-           </nav>
-           <div class="frame-home">
+   <div class="section-1">
+      <?=$this->Include('partials/navbar_home');?>
+      <div class="frame-home">
                <div class="platform-undangan">Platform Undangan <br />Pernikahan Digital</div>
                <p class="undangan-pernikahan">
                    <span class="text-wrapper-home">Undangan pernikahan online dengan website </span>
@@ -20,6 +12,7 @@
                        yang tersedia.</span>
                </p>
            </div>
+
            <img class="wedding-invitation" src="resource/img/wedding-invitation.png" />
            <div class="div-wrapper">
                <a href="#" class="text-button-wrapper">Daftar Sekarang</a>
@@ -152,3 +145,5 @@
            </div>
        </div>
    </div>
+   <?= $this->Include('template/footer'); ?>
+   <?=$this->endSection(); ?>

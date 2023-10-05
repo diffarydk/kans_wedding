@@ -1,0 +1,34 @@
+.bar{
+    background-color: #F7D6D4;
+}
+h1{
+    color: #000;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+p{
+    font-family: fw-bold;
+}
+
+
+
+/* Ini adalah contoh gaya untuk input dengan garis bawah */
+.underline-input {
+    color: #F7D6D4;
+    text-decoration: none;
+    border: none; /* Menghapus garis bawa default */
+    border-bottom: 1px solid #F7D6D4; /* Menambahkan garis bawah dengan warna hitam */
+    outline: none; /* Menghapus efek focus bawa default */
+}
+
+.warna-span a{
+    color: #F7D6D4;
+    text-decoration: none;
+    outline: none;
+}
+
+
+
