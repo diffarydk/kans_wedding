@@ -1,3 +1,6 @@
+   <?= $this->extend('template/template')?>
+
+   <?= $this->section('content');?>
    <div class="landing-page">
        <div class="section-1">
            <nav class="frame">
@@ -152,3 +155,4 @@
            </div>
        </div>
    </div>
+   <?= $this->endSection();?>
